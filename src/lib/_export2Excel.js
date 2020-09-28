@@ -141,6 +141,10 @@ export function export_json_to_excel(th, jsonData, defaultTitle, options = { mer
     merges = merges.map(i => i instanceof Array ? { s: i[0], e: i[1] } : i); // be sort :) # ['A1', 'C1'] => { s: 'A1', e: 'C3' }
     ws['!merges'] = merges;
 
+    if(options.cols){
+      ws["!cols"] = options.cols;
+    }
+
     /* add worksheet to workbook */
     wb.SheetNames.push(ws_name);
     wb.Sheets[ws_name] = ws;
