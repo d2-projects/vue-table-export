@@ -35,23 +35,15 @@ const vueTableExport = {
             columns: [],
             data: [],
             title: 'table',
-            header: null,
-            merges: [],
+            header: null
           }
           // 合并参数
           const _params = Object.assign({}, paramsDefault, params)
           // 从参数中派生数据
           const header = _params.columns.map(e => e.label)
           const data = _params.data.map(row => _params.columns.map(col => row[col.prop]))
-
-          const cols = _params.columns.map(e => {
-            let col = {...e}
-            delete col.label;
-            delete col.prop;
-            return col
-          })
           // 导出
-          Excel.export_json_to_excel(header, data, _params.title, { merges: _params.merges, header: _params.header,cols: cols })
+          Excel.export_json_to_excel(header, data, _params.title, { merges: _params.merges, header: _params.header })
           // 完成
           resolve()
         })
