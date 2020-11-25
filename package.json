@@ -6,7 +6,6 @@
   "private": false,
   "license": "MIT",
   "main": "dist/vue-table-export.js",
-  "module": "src/index.js",
   "files": [
     "dist/",
     "src/"
