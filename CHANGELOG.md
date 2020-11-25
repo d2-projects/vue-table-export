@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/d2-projects/vue-table-export/compare/v1.1.1...v1.1.2) (2020-11-25)
+
+
+### Bug Fixes
+
+* :package: 移除多余的 module 配置 ([345dfb4](https://github.com/d2-projects/vue-table-export/commit/345dfb497137bf2d8ec860ada361751b4e21b078))
+
 ## [1.1.1](https://github.com/d2-projects/vue-table-export/compare/v1.1.0...v1.1.1) (2020-11-25)
 
 
