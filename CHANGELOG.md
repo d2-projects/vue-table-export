@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/d2-projects/vue-table-export/compare/v1.1.2...v1.1.3) (2021-01-19)
+
+
+### Bug Fixes
+
+* :bug: 补充 merges 参数 ([634af3f](https://github.com/d2-projects/vue-table-export/commit/634af3fbe3455afacd4a753e28d602c2bb2bf1b0))
+
 ## [1.1.2](https://github.com/d2-projects/vue-table-export/compare/v1.1.1...v1.1.2) (2020-11-25)
 
 
