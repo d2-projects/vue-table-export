@@ -34,6 +34,7 @@ const vueTableExport = {
           const paramsDefault = {
             columns: [],
             data: [],
+            merges: [],
             title: 'table',
             header: null
           }
