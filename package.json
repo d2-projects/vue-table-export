@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "file-saver": "^2.0.0",
-    "xlsx": "^0.14.1"
+    "xlsx": "^0.17.0"
   },
   "bugs": {
     "url": "https://github.com/d2-projects/vue-table-export/issues"
